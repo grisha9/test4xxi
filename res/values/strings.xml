@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test4xxi</string>
+    <string name="add_city">add</string>
+    <string name="map_select">select</string>
+    <string name="refresh">refresh</string>
+    <string name="error_no_marker">No marker</string>
+    <string name="error_add_marker">Connection is lost</string>
+    <string name="label_selected">Selected</string>
+    <string name="connecting">Connecting...</string>
+    <string name="temp">Temp (C)</string>
+    <string name="temp_day">Temp day (C)</string>
+    <string name="temp_night">Temp night (C)</string>
+    <string name="pressure">Pressure (kPa)</string>
+    <string name="humidity">Humidity (%)</string>
+    <string name="date">Date</string>
+    <string name="forecast3">3 days</string>
+    <string name="forecast7">7 days</string>
+    <string name="forecast">Forecast</string>
+    <string name="offline">offline</string>
+</resources>

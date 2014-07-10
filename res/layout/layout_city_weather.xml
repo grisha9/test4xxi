@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/city_weather"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal">
+        <TextView android:text="@string/temp"/>
+        <TextView android:id="@+id/temp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"/>
+        <ImageView android:id="@+id/icon"
+                   android:layout_rowSpan="4"
+                   android:layout_width="40dp"
+                   android:layout_height="40dp" />
+
+        <TextView android:text="@string/pressure"/>
+        <TextView android:id="@+id/pressure"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"/>
+
+
+        <TextView android:text="@string/humidity"/>
+        <TextView android:id="@+id/humidity"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"/>
+
+        <TextView android:text="@string/date"/>
+        <TextView android:id="@+id/date"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"/>
+
+    </GridLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+        <TextView
+                android:text="@string/forecast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/offline"
+                android:text="@string/offline"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
